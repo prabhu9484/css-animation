@@ -1,0 +1,78 @@
+@keyframes "loading" {
+ from {
+    background-position: 0 0;
+ }
+ to {
+    background-position: 200%;
+ }
+
+}
+
+@-moz-keyframes loading {
+ from {
+   background-position: 0 0;
+ }
+ to {
+   background-position: 200%;
+ }
+
+}
+
+@-webkit-keyframes "loading" {
+ from {
+   background-position: 0 0;
+ }
+ to {
+   background-position: 200%;
+ }
+
+}
+
+@-ms-keyframes "loading" {
+ from {
+   background-position: 0 0;
+ }
+ to {
+   background-position: 200%;
+ }
+
+}
+
+@-o-keyframes "loading" {
+ from {
+   background-position: 0 0;
+ }
+ to {
+   background-position: 200%;
+ }
+
+}
+
+
+.loading {
+	float: left;	
+	position: relative;
+	width: 3.5em;
+	height: 0.5em;
+	margin: 30% auto;
+	border: solid 0.13em #2c2c2c;
+	border-radius: 0.3em;
+
+	background: -webkit-linear-gradient(140deg, transparent 25%, #2c2c2c 50%, transparent 75%) 0 0 repeat-x;
+	background: -moz-linear-gradient(140deg, transparent 25%, #2c2c2c 50%, transparent 75%) 0 0 repeat-x;
+	background: -o-linear-gradient(140deg, transparent 25%, #2c2c2c 50%, transparent 75%) 0 0 repeat-x;
+	background: -ms-linear-gradient(140deg, transparent 25%, #2c2c2c 50%, transparent 75%) 0 0 repeat-x;
+	background: linear-gradient(140deg, transparent 25%, #2c2c2c 50%, transparent 75%) 0 0 repeat-x;
+
+	-webkit-background-size: 0.8em 0.6em;
+	-moz-background-size: 0.8em 0.6em;
+	background-size: 0.8em 0.6em;
+
+	-webkit-animation: loading 5s linear infinite;
+	-moz-animation: loading 5s linear infinite;
+	-ms-animation: loading 5s linear infinite;
+	-o-animation: loading 5s linear infinite;
+	animation: loading 5s linear infinite;
+	margin-top: 113px;
+	margin-left: 1px;
+}
